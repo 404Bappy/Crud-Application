@@ -19,20 +19,22 @@ function App() {
   return (
     <div>
 
-   
-        <Navbar />
-        <Switch>
-            <Route path= "/" component={Home}/>
-        </Switch>
 
-        <Home />
-        <Register />
+      <Navbar />
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/" component={Register} />
+        <Route path="/" component={Home} />
+      </Switch>
 
-        </div> 
+      <Home />
+      <Register />
+
+    </div>
 
 
 
-  
+
 
 
 
