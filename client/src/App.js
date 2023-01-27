@@ -11,6 +11,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Register from './components/Register'
 import Edit from "./components/Edit";
+import Details from "./components/Details";
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/register" component={Register} />
         <Route exact path="/edit/:id" component={Edit} />
+        <Route exact path="/view/:id" component={Details} />
         
       </Switch>
 
