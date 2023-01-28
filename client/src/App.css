@@ -11,6 +11,15 @@
   font-weight: 300;
 }
 
-.left_view h3{
+.left_view h3 {
   font-size: 21px;
 }
+
+.left_view p {
+  font-weight: 600;
+}
+
+.left_view span {
+  font-weight: 400;
+}
+
