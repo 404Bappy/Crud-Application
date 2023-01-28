@@ -19,6 +19,10 @@ const Details = () => {
 
             <Card sx={{ maxWidth: 600 }}>
                 <CardContent>
+                    <div className="add_btn">
+                        <button className='btn btn-warning mx-2'> <i class="fa-solid fa-wrench"></i></button>
+                        <button className='btn btn-danger'> <i class="fa-solid fa-trash"></i></button>
+                    </div>
                     <div className="row">
                         <div className='left_view col-lg-6 col-md-6 col-12' >
                             <h3 className='mt-3'>Name: <span>BAPPY</span></h3>
@@ -27,10 +31,7 @@ const Details = () => {
                             <p className='mt-3'><WorkIcon /> Occupation : <span>Software Developer</span></p>
                         </div>
                         <div className="right_view col-lg-6 col-md-6 col-12">
-                            <div className="add_btn">
-                                <button className='btn btn-warning mx-2'> <i class="fa-solid fa-wrench"></i></button>
-                                <button className='btn btn-danger'> <i class="fa-solid fa-trash"></i></button>
-                            </div>
+
                             <p className='mt-4'><PhoneIphoneIcon />Mobile : <span>01849675876</span></p>
                             <p className='mt-3'><LocationOnIcon />Location : <span>Dhaka, Bangladesh</span></p>
                             <p className='mt-3'>Discription : <span>Lorem ipsum dolor aliquam  Quos assumenreiciendis, magni in expedita eos perspiciatis totam veniam. Voluptas? </span></p>
