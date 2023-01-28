@@ -11,13 +11,18 @@ const Details = () => {
     return (
         <div className='container mt-3'>
             <h1 className='wcBappy'>Welcome BAPPY!</h1>
-            <img src={imgage} alt="" />
+            <img style={{ width: 50 }} src={imgage} alt="" />
 
             <Card sx={{ minWidth: 275 }}>
                 <CardContent>
+                    <div className='left_view'>
+                        <h3 className='mt-3'>Name: <span style={{ fontWeight: 400 }}>BAPPY</span></h3>
+                        <h3 className='mt-3'>Age : <span style={{ fontWeight: 400 }}>26</span></h3>
+                    </div>
+                    <div className="right_view">
 
-                    <h3>Name: <span>BAPPY</span></h3>
-                    <h3>Age : <span>26</span></h3>
+                    </div>
+
                 </CardContent>
             </Card>
         </div>

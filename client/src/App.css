@@ -1,12 +1,16 @@
-.add_btn{
+.add_btn {
   text-align: right;
 }
 
-.container{
+.container {
   overflow: auto;
 }
 
 
-.wcBappy{
+.wcBappy {
   font-weight: 300;
+}
+
+.left_view h3{
+  font-size: 21px;
 }
